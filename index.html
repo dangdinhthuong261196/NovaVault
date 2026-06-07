@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NovaVault Protocol</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <nav class="navbar">
+
+    <div class="logo">
+      NovaVault Protocol
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="#protocol">Protocol</a></li>
+      <li><a href="#vaults">Vaults</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#governance">Governance</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+
+    </ul>
+
+    <button id="connectBtn">
+      Connect Wallet
+    </button>
+
+  </nav>
+
+</header>
+
+<section class="hero" id="protocol">
+
+  <div class="hero-content">
+
+    <div class="hero-badge">
+      NEXT GENERATION DEFI YIELD INFRASTRUCTURE
+    </div>
+
+    <h1>
+      Institutional Grade
+      <span>DeFi Vaults</span>
+      For Web3 Capital
+    </h1>
+
+    <p>
+      NovaVault Protocol is a decentralized asset management ecosystem
+      providing secure smart vaults, automated yield strategies,
+      multi-chain liquidity aggregation, and DAO-powered governance.
+    </p>
+
+    <div class="hero-buttons">
+
+      <button class="primary-btn">
+        Launch App
+      </button>
+
+      <button class="secondary-btn">
+        Read Docs
+      </button>
+
+    </div>
+
+    <div class="wallet-box">
+
+      <p id="walletAddress">
+        Wallet Not Connected
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="stats">
+
+  <div class="stat-card">
+    <h2>$6.8B+</h2>
+    <p>Total Value Locked</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>850K+</h2>
+    <p>Active Wallets</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>54+</h2>
+    <p>Integrated Chains</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>12.4%</h2>
+    <p>Average APY</p>
+  </div>
+
+</section>
+
+<section class="why-section">
+
+  <h2>
+    Why NovaVault Protocol
+  </h2>
+
+  <div class="why-grid">
+
+    <div class="why-card">
+      <h3>Smart Liquidity Routing</h3>
+      <p>
+        NovaVault dynamically allocates capital across
+        multiple DeFi protocols to maximize yield efficiency
+        while reducing exposure risks.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <h3>Institutional Security</h3>
+      <p>
+        Multi-signature treasury management,
+        audited smart contracts,
+        and real-time monitoring infrastructure.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <h3>Cross-Chain Yield Layer</h3>
+      <p>
+        Access staking, lending,
+        and liquidity opportunities across
+        Ethereum, Arbitrum, Base, Solana, and more.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="features" id="vaults">
+
+  <div class="feature-card">
+
+    <div class="feature-icon">
+      🔒
+    </div>
+
+    <h3>
+      Secure Smart Vaults
+    </h3>
+
+    <p>
+      Decentralized vault infrastructure with automated
+      rebalancing strategies and non-custodial asset control.
+    </p>
+
+  </div>
+
+  <div class="feature-card">
+
+    <div class="feature-icon">
+      ⚡
+    </div>
+
+    <h3>
+      Automated Yield Engine
+    </h3>
+
+    <p>
+      AI-assisted allocation engine continuously scans
+      the DeFi market for optimized risk-adjusted yields.
+    </p>
+
+  </div>
+
+  <div class="feature-card">
+
+    <div class="feature-icon">
+      🌐
+    </div>
+
+    <h3>
+      Multi-Chain Ecosystem
+    </h3>
+
+    <p>
+      Unified liquidity and staking access across
+      multiple blockchain ecosystems and Layer-2 networks.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="how-section">
+
+  <h2>
+    How NovaVault Works
+  </h2>
+
+  <div class="how-grid">
+
+    <div class="how-card">
+      <span>01</span>
+      <h3>Deposit Assets</h3>
+      <p>
+        Users deposit crypto assets into secure vaults.
+      </p>
+    </div>
+
+    <div class="how-card">
+      <span>02</span>
+      <h3>Strategy Allocation</h3>
+      <p>
+        Capital is distributed into optimized DeFi strategies.
+      </p>
+    </div>
+
+    <div class="how-card">
+      <span>03</span>
+      <h3>Yield Generation</h3>
+      <p>
+        Automated systems generate yield through staking,
+        lending, and liquidity provisioning.
+      </p>
+    </div>
+
+    <div class="how-card">
+      <span>04</span>
+      <h3>DAO Governance</h3>
+      <p>
+        Token holders vote on protocol upgrades,
+        treasury allocation, and ecosystem expansion.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="security-section" id="security">
+
+  <h2>
+    Security Infrastructure
+  </h2>
+
+  <div class="security-grid">
+
+    <div class="security-card">
+      <h3>Audited Contracts</h3>
+      <p>
+        Smart contracts audited by leading blockchain security firms.
+      </p>
+    </div>
+
+    <div class="security-card">
+      <h3>Insurance Layer</h3>
+      <p>
+        Protocol insurance reserve protecting against vulnerabilities.
+      </p>
+    </div>
+
+    <div class="security-card">
+      <h3>24/7 Monitoring</h3>
+      <p>
+        Real-time analytics and anomaly detection systems.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="governance-section" id="governance">
+
+  <h2>
+    DAO Governance
+  </h2>
+
+  <p class="governance-text">
+    NovaVault Protocol is governed by the community through
+    decentralized voting powered by the NOVA governance token.
+    DAO participants control treasury allocation, emissions,
+    partnerships, and protocol upgrades.
+  </p>
+
+</section>
+
+<section class="roadmap" id="roadmap">
+
+  <h2>
+    Development Roadmap
+  </h2>
+
+  <div class="roadmap-grid">
+
+    <div class="roadmap-card">
+      <h3>Q4 2025</h3>
+      <p>
+        Core protocol launch, smart vault architecture,
+        wallet integrations, and security audits.
+      </p>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>Q1 2026</h3>
+      <p>
+        DAO governance launch, staking infrastructure,
+        and yield optimization marketplace.
+      </p>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>Q2 2026</h3>
+      <p>
+        Cross-chain bridge deployment,
+        institutional vaults,
+        and ecosystem partnerships.
+      </p>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>2027+</h3>
+      <p>
+        AI-driven portfolio automation,
+        real-world asset integration,
+        and global DeFi liquidity expansion.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <div class="footer-logo">
+    NovaVault Protocol
+  </div>
+
+  <div class="footer-links">
+
+    <a href="#">GitHub</a>
+    <a href="#">Discord</a>
+    <a href="#">Twitter</a>
+    <a href="#">Docs</a>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
